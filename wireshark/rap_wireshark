@@ -1,0 +1,9 @@
+On veut sniffer le reseau et afficher des données sous forme artistique.
+on veut donc recuperer ces données et les traiter différements, selon la destination, le protocle, la taille ...
+on veut aussi agir en tps réél.
+
+Pour commencer, on va se simplifier la tache en n'agissant pas en temps reel.
+on va faire un programme qui va lire un fichier texte comportant les données enregistrées par
+wireshark, (ou tcpdump). On recupère l'heure, la source, le destinataire, le protocol,
+ la longueur, le contenu.
+
